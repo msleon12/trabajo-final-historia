@@ -1,3 +1,4 @@
+/* General */
 body{
     font-family: 'Times New Roman', Times, serif;
     background-color: gray;
@@ -10,11 +11,26 @@ body{
 p{
     text-indent: 30px;
 }
+
+.compartida{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* Notas de arriba */
 .noticias-arriba{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
 }
+
+.nota-principal img{
+    width: 400px;
+    display: inline-block;
+    max-height: 350px;
+}
+
+
 
 .titulo h1{
     font-size: 50px;
@@ -32,11 +48,17 @@ p{
     grid-template-columns: 3fr 1fr;
 }
 
+/* Abajo */
 .principal-abajo{
     display: grid;
     grid-template-columns: 1fr 2fr 1fr ;
 }
 
 .nota-abajo-centro img{
-    width: 500px;
+    width: 400px;
+}
+
+#poder-nazi{
+    width: 270px;
+    height: 310px;
 }
