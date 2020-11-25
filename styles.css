@@ -17,6 +17,20 @@ p{
     grid-template-columns: 1fr 1fr;
 }
 
+/* Header */
+.paginas{
+    list-style-type: none;
+    display: flex;
+}
+
+.paginas a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
 /* Notas de arriba */
 .noticias-arriba{
     display: grid;
