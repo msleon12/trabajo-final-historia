@@ -1,3 +1,4 @@
+/* General */
 body{
     /* font-family: 'Times New Roman', Times, serif; */
     background-color: #ACACAC;
@@ -7,12 +8,57 @@ body{
 }
 *{
     box-sizing: border-box;
-    
 }
 
 p{
     text-indent: 30px;
 }
+
+.negrita{
+    font-weight: 400;
+}
+
+.azul{
+    color: blue;
+}
+.autores{
+    color: #636363 ;
+}
+.compartida{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 35px;
+}
+
+.compartida img{
+    margin-top: 20px;
+}
+
+.explicacion-img{
+    font-style: italic;
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Header */
+.paginas{
+    list-style-type: none;
+    display: flex;
+    font-size: 20px;
+    gap: 13px;
+}
+.paginas li:hover{
+    font-size: 25px;
+}
+
+.paginas a{
+    color: black;
+}
+
+/* Notas de arriba */
 .noticias-arriba{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -22,9 +68,10 @@ p{
 
 .titulo h1{
     font-size: 50px;
-    text-decoration: underline;
-    color: red;
+    text-decoration: none;
     text-align: center;
+    font-weight: 500;
+    margin-top: 4px;
 }
 
 .titulo h3{
@@ -36,11 +83,23 @@ p{
     grid-template-columns: 3fr 1fr;
 }
 
+/* Abajo */
 .principal-abajo{
     display: grid;
     grid-template-columns: 1fr 2fr 1fr ;
 }
 
 .nota-abajo-centro img{
-    width: 500px;
+    width: 400px;
+}
+
+#poder-nazi{
+    width: 270px;
+    height: 310px;
+}
+
+/* INTERNA */
+.principal-interna{
+    display: grid;
+    grid-template-columns: 2fr 1fr ;
 }
