@@ -12,7 +12,7 @@ body{
 }
 
 .main-section{
-    padding: 20px;
+    padding: 0px 20px 20px 20px;
 }
 
 p{
@@ -25,6 +25,7 @@ p{
 
 .azul{
     color: blue;
+    text-decoration: underline;
 }
 .autores{
     color: #636363 ;
@@ -78,22 +79,37 @@ nav{
 /* Notas de arriba */
 .noticias-arriba{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    text-align: center;
-    font-weight:400 ;
+    grid-template-columns: 2fr 0.1fr 2fr 0.1fr 2fr;
+    font-weight:400;
+    text-align: justify;
+}
 
+.img-portada{
+    width: 150px;
+    display: flex;
+    justify-content: center;
 }
 
 /* Noticias principales */
-.nota-principal img{
-    max-width: 400px;
+.principal-arriba{
+    display: grid;
+    grid-template-columns: 6fr 0.2fr 2fr;
+    gap: 20px;
+}
+
+.imagen{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.imagen img{
     display: inline-block;
-    max-height: 350px;
+    width: 850px;
 }
 
 .titulo h1{
     font-family: 'Niconne', cursive;
-    background: #8357CE;
     font-size: 100px;
     text-decoration: none;
     text-align: center;
@@ -106,16 +122,11 @@ nav{
     text-align: center;
 }
 
-.principal-arriba{
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    gap: 20px;
-}
-
 /* Abajo */
 .principal-abajo{
     display: grid;
     grid-template-columns: 1fr 1fr ;
+    gap: 30px;
 }
 
 /* INTERNA */
