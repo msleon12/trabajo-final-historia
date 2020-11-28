@@ -8,8 +8,11 @@ body{
     background-color: #ACACAC;
     font-family: 'Source Code Pro', monospace;
     margin: 0px;
-    padding: 20px;
     width: 100%;
+}
+
+.main-section{
+    padding: 20px;
 }
 
 p{
@@ -48,6 +51,10 @@ a{
 }
 
 /* Header */
+header{
+    background-image: linear-gradient(#636363, #ACACAC);
+}
+
 nav{
     display: flex;
     justify-content: center;
@@ -77,11 +84,13 @@ nav{
 
 .titulo h1{
     font-family: 'Niconne', cursive;
+    background: #8357CE;
     font-size: 100px;
     text-decoration: none;
     text-align: center;
     font-weight: 500;
     margin-top: 4px;
+    margin-bottom: 4px;
 }
 
 .titulo h3{
@@ -91,25 +100,39 @@ nav{
 .principal-arriba{
     display: grid;
     grid-template-columns: 3fr 1fr;
+    gap: 20px;
 }
 
 /* Abajo */
 .principal-abajo{
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr ;
+    grid-template-columns: 1fr 1fr ;
+}
+
+/* INTERNA */
+.principal-interna{
+    width: 100%;
+}
+
+/* Opinión */
+.nota-abajo-centro{
+    width: 50%;
 }
 
 .nota-abajo-centro img{
     width: 400px;
 }
 
+.stalin{
+    display: flex;
+    flex-direction: column;
+}
+
+.stalin img{
+    width: 600px;
+}
+
 #poder-nazi{
     width: 270px;
     height: 310px;
-}
-
-/* INTERNA */
-.principal-interna{
-    display: grid;
-    grid-template-columns: 2fr 1fr ;
 }
