@@ -5,7 +5,7 @@
 /* General */
 body{
     /* font-family: 'Times New Roman', Times, serif; */
-    background-color: #ACACAC;
+    background-image: url("img/background2.jpg");
     font-family: 'Source Code Pro', monospace;
     margin: 0px;
     width: 100%;
@@ -50,10 +50,10 @@ a{
     color: black;
 }
 
-/* Header */
-header{
-    background-image: linear-gradient(#636363, #ACACAC);
+section{
+    gap: 30px;
 }
+/* Header */
 
 nav{
     display: flex;
@@ -80,6 +80,15 @@ nav{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
+    font-weight:400 ;
+
+}
+
+/* Noticias principales */
+.nota-principal img{
+    max-width: 400px;
+    display: inline-block;
+    max-height: 350px;
 }
 
 .titulo h1{
