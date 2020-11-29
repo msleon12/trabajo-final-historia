@@ -7,6 +7,7 @@ body{
     /* font-family: 'Times New Roman', Times, serif; */
     background-image: url("img/background2.jpg");
     font-family: 'Cormorant Garamond', serif;    
+    text-align: justify;
     margin: 0px;
     width: 100%;
 }
@@ -59,6 +60,7 @@ section{
 nav{
     display: flex;
     justify-content: center;
+    background-image: linear-gradient(#7F8C8D,#CCD1D1)
 }
 
 .paginas{
@@ -143,16 +145,46 @@ nav{
     width: 400px;
 }
 
+.opiniones{
+    display: grid;
+    grid-template-columns: 1fr 0.1fr 1fr;
+    gap: 30px
+}
+
+.img-text{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 30px;
+}
+
 .stalin{
     display: flex;
     flex-direction: column;
 }
 
 .stalin img{
-    width: 600px;
+    width: 500px;
 }
 
 #poder-nazi{
     width: 270px;
     height: 310px;
+}
+
+/* Interna dos */
+
+.dos-filas{
+    display: grid;
+    grid-template-columns: 2fr 0.1fr 2fr;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.center img{
+    width: 100%;
+    margin: 0;
 }
