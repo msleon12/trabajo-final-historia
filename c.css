@@ -187,3 +187,12 @@ nav{
 .bibliografia li{
     line-height: 2.5;
 }
+
+/* CARATULA */
+.caratula{
+    margin-left: 40px;
+}
+
+.caratula h1{
+    text-align: center;
+}
